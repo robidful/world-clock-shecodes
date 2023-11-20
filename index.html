@@ -17,35 +17,37 @@
   <body>
     <div class="container">
       <h1>World Clock <small>🕤</small></h1>
-      <select>
+      <select id="city">
         <option value="">Select a city 🌍</option>
-        <option value="">Los Angeles</option>
-        <option value="">New Delhi</option>
-        <option value="">Copenhagen</option>
-        <option value="">Mexico City</option>
-        <option value="">London</option>
+        <option value="America/New_York">New York</option>
+        <option value="Asia/Singapore">Singapore</option>
+        <option value="Europe/Copenhagen">Copenhagen</option>
+        <option value="America/Mexico_City">Mexico City</option>
+        <option value="Europe/London">London</option>
       </select>
 
-      <div class="city-block" id="rome">
-        <div>
-          <h2>Rome</h2>
-          <div class="date"></div>
+      <div class="cities">
+        <div class="city-block" id="rome">
+          <div>
+            <h2>Rome</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"><small></small></div>
         </div>
-        <div class="time"><small></small></div>
-      </div>
-      <div class="city-block" id="brasilia">
-        <div>
-          <h2>Brasilia</h2>
-          <div class="date"></div>
+        <div class="city-block" id="brasilia">
+          <div>
+            <h2>Brasilia</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"><small></small></div>
         </div>
-        <div class="time"><small></small></div>
-      </div>
-      <div class="city-block" id="toronto">
-        <div>
-          <h2>Toronto</h2>
-          <div class="date"></div>
+        <div class="city-block" id="toronto">
+          <div>
+            <h2>Toronto</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"><small></small></div>
         </div>
-        <div class="time"><small></small></div>
       </div>
     </div>
 
